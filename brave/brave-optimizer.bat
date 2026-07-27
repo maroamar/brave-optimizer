@@ -1,0 +1,2 @@
+﻿@echo off
+powershell -NoProfile -ExecutionPolicy Bypass -STA -WindowStyle Hidden -Command "Start-Process powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -STA -File ""%~dp0brave-optimizer.ps1""' -Verb RunAs"
